@@ -1,0 +1,146 @@
+body {
+    background-color: #F9E7D4;
+    color: brown;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: brown;
+    margin: 10px 0px;
+}
+
+h2 {
+    color: brown;
+    margin: 10px 0px;
+}
+
+p {
+    margin: 10px 5px;
+}
+
+.photo2 {
+    width: 170px;
+    border-radius: 10px;
+}
+
+.info ul {
+    margin: 10px 0px;
+    padding: 0px 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    list-style: square;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px; 
+}
+
+a {
+    margin: 5px;
+    
+    color: rgb(152, 0, 152);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box-model > div {
+    float: left;
+    background-color: black;
+    height: 200px;
+    width: 25%;
+    border: solid red;
+    box-sizing: border-box;
+}
+
+.table {
+    padding-bottom: 10px;
+    width: 25%;
+    padding-bottom: 0px;
+}
+
+.card {
+    background-color: rgb(228, 188, 136);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+}
+
+.contact {
+    margin: 0px 10px;
+}
+
+.form label {
+    margin: 5px;
+    display: block;
+}
+
+.form input {
+    margin: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid brown;
+    color: brown;
+    background-color: #F9E7D4;
+    font-family: inherit;
+    outline: none;
+}
+
+.form textarea {
+    margin: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid brown;
+    color: brown;
+    background-color: #F9E7D4;
+    font-family: inherit;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row .form {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form:last-child {
+    margin-right: 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.mainText {
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: burlywood;
+    color: purple;
+    border: solid brown 2px;
+    margin: 5px 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+    .main {
+        display: block;
+        text-align: center;
+    }
+}
